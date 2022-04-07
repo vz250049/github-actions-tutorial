@@ -5,7 +5,7 @@ env: {}
 on:
   push:
     branches:
-      - master
+      - feature/SWDEVOPS-10046-1
   pull_request:
     branches:
       - master
