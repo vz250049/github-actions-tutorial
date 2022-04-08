@@ -46,3 +46,6 @@ jobs:
           docker build -f ./Dockerfile -t local/example .
           echo -n "verifying images:"
           docker images
+
+      - name: Run Helm
+        run: helm version
